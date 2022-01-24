@@ -223,6 +223,126 @@ use aws trusted advisror to see wich securioty groups have compromides adcess
 A company wants to have a secure way of generating, storing, and managing cryptographic keys. The company also wants to have exclusive access for the keys. Which option can the company use for this purpose?
 use aws cloudhsm
 
+CURSO # 2
+Migrating Your Application to AWS
+
+¿Qué servicio o característica de AWS se utilizará para conceder permisos temporales a un recurso?
+AWS Identity and Access Management 角色
+
+¿Qué opción ayuda a los clientes a administrar y controlar de forma centralizada la facturación, el acceso, la conformidad, la seguridad y los recursos compartidos en sus cuentas de AWS?
+AWS Organizations
+
+Una forma de garantizar que la cuenta raíz sea muy segura es evitar el uso de la cuenta raíz para las operaciones diarias. ¿Cuáles son los otros tres métodos? (Seleccione tres.) ）
+Usar una contraseña segura
+Habilitar la autenticación multifactor
+Usa la dirección de correo electrónico de tu empresa
+
+
+¿Cuál es la segmentación lógica de la VPC utilizada para colocar recursos informáticos y de otro tipo para la aplicación?
+Subred
+
+
+¿Cómo se aseguran los desarrolladores de aplicaciones de que sus aplicaciones son de alta disponibilidad?
+Crear subredes en al menos dos zonas de disponibilidad
+
+
+¿Qué características actúan como un firewall virtual para controlar el tráfico entrante y saliente para las instancias que ejecutan aplicaciones? (Seleccione ambos.) ）
+Grupos de seguridad
+Listas de control de acceso a la red (ACL de red)
+
+
+¿Cuáles son las ventajas de utilizar Amazon EC2 con cargas de trabajo de aplicaciones? (Seleccione tres.) ）
+Escale hacia arriba o hacia abajo de manera eficiente
+Pagar solo por el uso
+Elija un sistema operativo familiar
+
+¿Qué opción de compra de Amazon EC2 es la mejor para las cargas de trabajo máximas porque permite a los clientes pagar por la capacidad informática cada hora sin tener que firmar un contrato a largo plazo?
+Instancias bajo demanda
+
+¿Qué tipos de espacio de almacenamiento están disponibles al migrar aplicaciones? (Seleccione tres.) ）
+Almacenamiento en bloque
+
+Almacenamiento de objetos
+
+Almacenamiento compartido de archivos
+
+¿Qué clase de almacenamiento de Amazon Simple Storage Service (Amazon S3) optimiza los costos de almacenamiento al mover automáticamente objetos entre los niveles de almacenamiento S3 Standard y S3 Standard–IA cuando cambian los patrones de acceso?
+Amazon S3 Intelligent Tiering(Organización en niveles inteligente de Amazon S3)
+
+Amazon Simple Storage Service (Amazon S3) implementa la seguridad de forma predeterminada. AWS Identity and Access Management (IAM) es una forma de conceder acceso. ¿De qué otra manera implementa Amazon S3 la seguridad? (Seleccione ambos.) ）
+Listas de control de acceso
+Política de bucket
+
+¿Cuáles son los tres principales beneficios de Amazon Aurora? (Seleccione tres.) ）
+Totalmente administrado por Amazon RDS
+Rendimiento
+Alta disponibilidad y durabilidad
+
+¿Qué servicios administrados de AWS ejecutan bases de datos relacionales, como MySQL, Oracle o SQL Server?
+Amazon RDS
+
+¿Cuál es la forma más común de reemplazar la base de datos host?
+Ejecución de la base de datos en una instancia Amazon EC2
+
+¿Qué tareas automatiza AWS Elastic Beanstalk por usted? (Seleccione tres.) ）
+Infraestructura aprovisionada
+Implemente su aplicación
+Configurar y administrar el equilibrio de carga y el escalado automático
+
+¿Cómo se me cobra por el uso en AWS Elastic Beanstalk?
+No hay cargos adicionales por usar Elastic Beanstalk
+
+La infraestructura como código proporciona coherencia de configuración y ayuda a los clientes a implementar entornos complejos. ¿Qué otros beneficios hay de la infraestructura como código? (Seleccione tres.) ）
+Proporcione una limpieza eficiente cuando sea necesario
+
+Proporcionar una única fuente de confianza para implementar toda la pila
+
+Versionar la infraestructura y las aplicaciones juntas
+
+¿Cuál es el nombre de este servicio de AWS que proporciona un lenguaje común para modelar y aprovisionar una colección de recursos de AWS de forma automatizada y segura?
+AWS CloudFormation
+
+AWS Quick Starts ayuda a los clientes a implementar de manera eficiente tecnologías populares en AWS. ¿Qué otras ventajas tiene AWS Quick Starts? (Seleccione tres.) ）
+Simplifique cientos de procedimientos manuales en unos pocos pasos
+Incluye la plantilla de AWS CloudFormation para implementar
+Utilice las prácticas recomendadas de AWS para la seguridad y la alta disponibilidad
+
+APAREAMIENTO
+AWS SaaS Factory - La ubicación de todo el software como servicio en AWS
+Programa de socios de APN - Programas que ayudan a los socios de AWS a crear, promocionar y vender productos basados en AWS
+AWS TechShift - Una serie de talleres y recursos para migrar y modernizar aplicaciones
+
+¿Dónde puedo encontrar AWS Cost Explorer, AWS Budgets o el panel de administración de costos y facturación?es decir, la ubicación del servicio
+Vaya a la página de inicio de AWS Cost Management,
+O seleccione Buscar servicio y escriba presupuestos, facturación o explorador de costos.
+es decir, la ubicación del servicio
+
+¿Qué servicio o característica se puede utilizar para administrar y controlar de forma centralizada la facturación, el acceso, la conformidad, la seguridad y los recursos compartidos en la cuenta de AWS de su empresa?
+????
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
