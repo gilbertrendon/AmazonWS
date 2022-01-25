@@ -562,37 +562,116 @@ AWS Trusted Advisor
 Which tool lets you analyze your server access logs to find insights?
 Amazon Athena
 
+-----------------------------------------
+subcategory - advanced stacks components
+action - create
+item - ec2stack
+category - deplyment
+
+What two options could you use to share the AWS CloudFormation template in the RFC creation process?
+public s3 url
+pre-signed s3 url
+
+------------------------------------------------------------------
+wwich of the following are initial sync steps?
+booting
+creating
+creating
+
+what is the minimum RAm requirement for the cloudendure failback client?
+4gb
+
+what settings can you edit after performing the prepare for failback action?
+failback settiong and back to normal settiogs
+
+how can you remove source machines form tge eloucendure user console?
+deleting them from the machine actions menu
+
+cloudendure allows you to rep´licate source workloads to wich target infractructure?
+specific aws regions
+
+what is the final step of failback?
+returnuing the machines to normal operation
+
+what status indicators, for the source machine, must you verify before you start the failover?(choose three)
+status is target mechine can be launched
+Disaster Recovery lifecycle is tested recently
+
+which of the following tecnologies does cloudendure utilize to enable organizationgs to migrate even the most complex wokloads to aws without down time, disruption, or data loss?
+continous block-level replication, automatic machine conversion, and application stack orchestration
+
+when can you initiate the prepare for failback action?
+once all the source machines in the project have launched target machines
+
+what sorurce and target environments allow you to perform a fully orchestrated faiback thourhh the cloudEndure user console?
+vcenter or aws to aws
+
+what mensaje is displayed at the completion of the cloudendure agent isntalallation?
+isntallation finished succesfully
+
+where in the cloudendure user console do you neded to enter tyou generated iam informatioon?
+credentials
+
+what are the roles of the cloudendure replication server?
+receive the continous block level changes from the cloud endure agents.
+take snapshots of the replicated disks
+
+when is the best time tio conduct disaster recovering testing?
+periodically
+
+what do you neeed to do to install the cloud endure agent on a linux machine?
+run the download and executable commands
+c
+why are the recovery points important?
+they allow you to pick the exact snapshots of your machines that you want to failover to
+
+what source and target environments can you use to perform a faiback with the aid of the cloudendure faiback client?
+other infrastructure to aws
+
+what can you use to manage large workloads?
+recovery plans
+how dows cliudendure disaster recovery oprepare you for faiback?
+reversing the directory of data replication from the target machine back to the source machine
+
+where can you locate the machione ID of the cource machine?
+machine details-source
+
+what aws identity and access management aiam credentials do you need to configure your cloudendure project?
+acces key and secret access key
+
+wich recovery point should be selected whrn performing a fully orchestrated fauklback?
+te lastes recovery pont
+
+what needs to be entered into the clouyd endure failbacj client?
+disk maping
+installation token
+source machine id
+
+how can you contact support?
+through the aws support center
+
+what action do you need to perform independentenly outside the cloudendure console during a failover process?
+redirect traffic from the ´primary site to the disaster recovery site
+
+what si the set of instructions that specify how a target machine(replicated isntance) should be launched called?
+is not diagram
 
 
 
+Given the following support ticket, how would you improve it?
 
 
 
+------
+
+We tried to launch a stack, but it's failing due to an error. Why is this error occurring? We wanted to deploy the stack in our production virtual private cloud (VPC). This is critical for us. (Select THREE.)
+
+Specify which stack had the error, preferably by providing the Amazon Resource Name (ARN).
+
+Provide context about what task you were attempting to accomplish.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Specify the Region where you were trying the operation.
 
 
 
