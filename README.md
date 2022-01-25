@@ -320,6 +320,295 @@ es decir, la ubicación del servicio
 ¿Qué servicio o característica se puede utilizar para administrar y controlar de forma centralizada la facturación, el acceso, la conformidad, la seguridad y los recursos compartidos en la cuenta de AWS de su empresa?
 ????
 
+CURSO SIGUIENTE-SYSTEMS OPERATOR:
+
+change management- Accessing or affecting any changes in a customer's managed environment
+continuity management - Providing backups using standard, existing functionality at predetermined intervals
+security and acces management - Configuring anti-malware protection and intrusion detection/prevention systems
+patch management - Applying and installing updates to Amazon EC2 instances for supported operating systems
+
+You can register or transfer both top-level and second-level domains with Amazon Route 53.
+True
+
+wich of the f0llowing is valid route 53 record?
+example.com CNAME cassic 1234567.us-east-1elb.amazonaws.co0m.
+example.com CNAME(Alias) cassic 1234567.us-east-1elb.amazonaws.co0m.
+sub.example.com CNAME cassic 1234567.us-east-1elb.amazonaws.co0m.(CORRECT)
+
+you can configure TTL value for Alias records
+true
+
+weighted- route traffic to multiple resouces in specified proportions
+geolocation-route traffic based on location
+geoproximity-route traffic based on location of resources or shift traffic from one location to another
+simple-single recources that performs given function for domain
+latency route traffic to the region that proviodes the best latency
+multivalue answer responds to DNS queries with up to heiogt healty records selected at random
+failover - configure active-passive failover
+
+you can only create route policies for a records
+false
+
+endpoint- specific healt checks require you to configure hostname and path
+true
+
+object storage - a flat structure where data is hld in a bucket
+block storage whre data is writen as individual pieces to a storage device
+file storage is a hierarchy of directories and subdirectories
+
+Amazon S3 tags are key value pairs that apply to a whole bucket or to individual objects to help with identification, searches, and data classification.
+
+
+What is the size limit of an object uploaded via the AWS Management console?
+160gb
+
+What is the data consistency model for Amazon S3 storage request?
+Strong read-after-write consistency
+
+True or False: The AWS Snow Family of edge computing only allows uploads using online internet access?
+False
+
+Which type of policy includes the principal statement in the JSON file?
+Bucket Policy
+
+server side encryption, encrypts an object before saving it to disk and decrypts it when you download the object.
+
+
+What is a data lake?
+A centralized repository that allows you to migrate, store, and manage all structured and unstructured data at unlimited scale.
+
+Which style of URL lists the bucket name first, and makes the URL more user friendly and easy to read?
+Virtual hosted-style URLs
+
+What is the upload limit of an object when using the AWS Management Console?
+160 GB
+
+How can you organize your objects to mimic a folder hierarchy?
+Use prefixes and delimiters to group items.
+
+What is the definition of object based storage?
+Object storage is a method of storing files in a flat address space based on attributes and metadata. 
+
+True or False: The Block Public Access feature is enabled by default?
+True
+
+True or False:  Bucket names can contain upper case letters.
+False
+
+True or False: Amazon S3 is a file based storage platform?
+False
+
+How many buckets can you create in a single AWS account?
+100
+
+
+Which of the following formats are supported for inventory report output files?
+Comma-separated values (CSV)
+Apache optimized row columnar (ORC)
+Apache Parquet (Parquet)
+
+Which actions MUST be allowed for the bucket containing the manifest?
+GetObject
+GetBucketLocation
+
+Which actions MUST be allowed for the source bucket?
+GetObject
+GetObjectTagging
+GetObjectAcl
+
+Which actions MUST be allowed for the destination bucket?
+PutObject
+PutObjectTagging
+PutObjectAcl
+
+Which actions MUST be allowed for the bucket that the completion report will be written to?
+PutObject
+GetBucketLocation
+
+QUIZ
+Cost allocation tags used_______ specifically for billing and tracking your AWS costs on a detailed level.
+
+Amazon S3 Lifecycle rules transition data between storage classes. Which is NOT a supported transition?
+S3 Glacier  to S3 Standard
+
+
+Which storage classes are best suited for long-term object retention of cold data? (Select TWO.)
+Amazon Glacier Deep Archive
+Amazon Glacier
+
+What is Amazon S3 Glacier provisioned capacity?
+Allows you to pay an upfront fee to ensure retrieval capacity for expedited retrievals.
+
+What can Amazon S3 Storage Class Analysis help you determine about your data?
+Data access patterns over a period of time
+
+What is a multi-part upload?
+A single large object uploaded in pieces using parallel uploads.
+
+The AWS Storage Gateway is made up of three separate offerings - File, Volume, and ____________Gateway.
+Tape 
+
+What is the correct retrieval time for restoring objects from Amazon S3 Glacier? (Select THREE.)
+Bulk (12 hours)
+Expedited (1–5 mins)
+Standard (3–5 hours)
+
+What are the benefits provided by Amazon S3 Storage Lens? (Choose THREE.)
+No performance impact
+Produces actionable recommendations to help improve cost-efficiency and apply data protection best practices.
+Provides a single view of object storage usage and activity
+
+Incomplete multipart uploads occupy storage space and can incur storage charges. Which element allow you to set a maximum number of days for a multipart upload to remain in progress? 
+AbortIncompleteMultipartUpload
+
+Which two items are types of cost allocation tags? (Select TWO.)
+User-defined
+AWS generated
+
+Which statement best describes the storage class analysis feature?
+Analyzes storage access patterns and transitions data to the correct storage class.
+
+What is the data retrieval time for Amazon S3 Standard?
+
+Immediate
+
+What happens to your data if you are using S3 One Zone-IA and the AZ in which you store your data is lost?
+Without the AZ, you cannot access your data.
+
+Which of the following access patterns works best with  S3 Intelligent-Tiering?
+Unknown access patterns
+Unpredictable access patterns
+
+True or False: S3 Glacier Deep Archive storage class data can be retrieved in 3-5 minutes.
+False
+
+QUIZ:
+True or False: You must choose one storage class for all your data.
+False
+
+How many object tags can you associate with each piece of data?
+10
+
+Which storage class can hold frequently accessed object? (Choose TWO.)
+Amazon S3 Standard
+Amazon S3 Intelligent Tiering
+
+Which storage class can hold archived data? (Choose TWO.)
+Amazon S3 Glacier
+Amazon S3 Glacier Deep Archive
+
+
+With Amazon S3 Infrequently Accessed Storage class, what happens to an object that is less than 128 KB?
+You are charged for 128 KB.
+
+Object tags are ______________ pairs that help organize your data.
+key-value
+
+True or False:  There is no data loss with S3 One Zone-IA if the AZ is lost.
+False
+
+Which statement best describes the storage class analysis feature?
+Analyzes storage access patterns and transitions data to the correct storage class.
+
+What is the data retrieval time for Amazon S3 Standard?
+inmediate
+
+
+In which situations are you most likely to benefit from using multipart uploads? (Select TWO.)
+You upload large objects over a spotty network, such as a mobile network.
+Your object size reaches 100 MB.
+
+A team of developers is looking for a simple way to integrate multipart uploads into their existing applications. They do not require any advanced functionality, such as pausing and resuming uploads. Which tool would best meet their requirements?
+AWS SDKs (high-level API)
+
+What is an upload ID? 
+It’s a unique identifier for your multipart upload. You must include this value whenever you upload parts, list the parts, complete an upload, or stop an upload.
+
+A team of storage engineers need to configure a CloudFront distribution to restrict access to an S3 bucket so that users can access objects only through the distribution. The distribution will use an S3 REST API endpoint as the origin. How can they achieve this?
+Create an OAI and update the bucket’s policy to grant read permissions to it.
+
+Which IAM permission allows a user to check whether a bucket has Transfer Acceleration enabled?
+s3:GetBucketAccelerateConfiguration
+
+You receive an error message when enabling Transfer Acceleration on a bucket called sales.reports.bucket. You are using the console to do this. What is causing the problem?
+Transfer Acceleration does not support buckets with periods (.) in their names.
+
+
+
+
+QUIZ
+Which tools will allow you to log object-level operations in your Amazon S3 buckets? (Select TWO)
+AWS CloudTrail
+Server access logging
+
+What tool lets you send an Amazon SNS notification or invoke an AWS Lambda function based on your AWS CloudTrail logs?
+Amazon CloudWatch
+
+Which logging tool guarantees log delivery?
+AWS CloudTrail
+
+Which tools check if your Amazon S3 buckets allow public read access? (Select THREE)
+AWS Config
+AWS IAM Access Analyzer
+AWS Trusted Advisor
+
+When Access Analyzer findings show an unintended permission and you fix it, what status does the finding display?
+Resolved
+
+Which tool checks that your logging is enabled for Amazon S3 buckets? (Select TWO)
+AWS Config
+AWS Trusted Advisor
+
+Which tool lets you analyze your server access logs to find insights?
+Amazon Athena
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
