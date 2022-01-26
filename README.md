@@ -673,44 +673,107 @@ Provide context about what task you were attempting to accomplish.
 
 Specify the Region where you were trying the operation.
 
+---------------------------------------------------
+Developer learning plan
+
+Why is .NET Core the future of the .NET platform?
+.NET Core is the recommended path for moving to .NET 5.
+
+Identity Services - Grants the right access to the right people at the right time
+Compute services - Provides virtual server hosting, container management, and serverless computing
+Monitoring and auditing services - Provides application and infrastructure performance tracking and status details
+Storage and database services - Allows for the storage, archiving, and retrieval of information
+
+AWS SDK for .NEt - Makes calling an AWS service as simple as calling a method on an object
+AWS Tools for PowerShell - Enables you to control AWS services from the command line
+AWS CDK for .NET - Enables you to define your cloud infrastructure as code
+AWS Toolkit for Visual Studio - Provides an explorer view of a number of AWS services and several easy-to-use wizards
 
 
+What is an advantage of hosting .NET applications on AWS?
+Provides fully featured services with deep functionalities
 
 
+Enter a question title here...
+Choice 1
+
+An application developer wants to host a .NET application in a containerized environment but does not want to manage the infrastructure. Which AWS compute service fits their needs?
+AWS Fargate
+
+Which AWS service automatically handles capacity provisioning, load balancing, automatic scaling, and application health monitoring of compute instances running your .NET application?
+AWS Elastic Beanstalk
+
+Which database option is most suitable for a developer who needs a key-value NoSQL database for their .NET application?
+Amazon DynamoDB
+
+Which database engine is supported by Amazon Relational Database Service (Amazon RDS)?
+Microsoft SQL Server
+
+Which service is used to enable fine-grained access control for users accessing your .NET applications and AWS resources?
+AWS Identity and Access Management (IAM)
+
+An application developer recently deployed their .NET application to the AWS Cloud. They now want to provide users with a sign-in using social identity providers such as Google, Amazon, or Facebook. Which AWS service should they use?
+Amazon Cognito
+
+Which of these is an AWS extension for a .NET developer tool?
+AWS Toolkit for Visual Studio
+
+Which developer tool enables .NET developers to provision their cloud infrastructure through .NET code?
+AWS Cloud Development Kit (AWS CDK)
 
 
+what is the diference between containers and virtual machines?
+Containers share the underlying host system´s OS kernel
+
+Which of the following is true about Docker?
+Creates container images that can be modified by running containers
+Leverages file system layesrs to be lightweight and fast
+
+which of the following is NOT TRUE of microservices architectures?
+Require taht all aplications be developed in the same programing languaje
+
+which of the following can be public or private storage for docker images?
+Registry
+
+which type of workload would be best to deploy as a service rather than a task?
+long running applications
+
+in which task launch type is the infrastructure that supports your containers completely manage by AWS as a service?
+Fargate
+
+which ECS task placement strategy minimizes the number of instances in use?
+binpack
 
 
+how do task placement strategies and task placement constraints affect how task are placed tasks on instances?
+both strategies are best effort; contraints are binding
 
+which aws service facilitates service discovery through dns in a microservices architecture?
+amazon route53
 
+how can access to a secret in secrets manager be controlled?
+each task can have its own IAM role with a policy attached
+Apolicy can be attached directly to the secret
 
+what is the basic unit of deployment in kubernetes?
+pods
 
+what is kubernetes service?
+a logical collection of pods  and means to access them
 
+what form of kubernetes does eks support?
+native, upstream kubernetes
 
+which components are always managed by EKS?
+the kubernetes control plane
 
+what type of service can be accesed from outside the cluster?
+nodeport and loadbalancer
 
+how are secrets in secrets manager usually accessed?
+through system manager parameter store
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+what is the recommended method to update EKS worked nodes to a new version of kubernetes?
+Replace the nodes with the new AMI and migrate your pods to the new group
 
 
