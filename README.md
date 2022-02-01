@@ -776,4 +776,79 @@ through system manager parameter store
 what is the recommended method to update EKS worked nodes to a new version of kubernetes?
 Replace the nodes with the new AMI and migrate your pods to the new group
 
+------------------------------------------------------------------------------------------
+Which of these are recommendations for structuring your Lambda functions? Select all that apply.
+separate busines logic from the handler method
+minimize the dependencies
 
+Which of these are recommendations for managing serverless applications? Select all that apply.
+use a serveless application framework
+use a sam template to deploy your serveless applications rather than creating a template in aws cloudformation
+
+Which of these are recommendations for organizing your code repository for serverless applications? Select all that apply.
+organize your functions into services, and give each service one deployment template and one code repository
+
+Which of these are recommendations for structuring your development environment for serverless?
+create separate aws accounts for each developer if you have management proceses in place to handle it 
+separate your production and non production
+
+Which of these are recommendations for managing serverless applications? Select all that apply.
+Use a serveless aplication framework
+Use a SAM template to deply your serveless applications rather than creting a template in AWS CloudFormation
+
+Which of these are recommendations for organizing your code repository for serverless applications? Select all that apply.
+Organize your functions into servicews, and give each service one deployment template and one code repository
+
+Which of these are recommendations for structuring your development environment for serverless?
+Create separate aws accounts for each developer if you have management proceses in place to handle it.
+separate your production adn non-production environments into different accounts.
+
+Which of these is an appropriate reason to use custom mocks? 
+you are tring to test an application that relies on multiple services interacting with each other.
+
+Which of these is an option for debugging your serverless applications?
+use your ide debugger on the docker container provided by sam cli
+
+What types of  potential cost savings should you evaluate when comparing serverless vs. server-based design? Select all that apply.
+reduce cost of idle server capacity
+benefit of shifting operational engineering focus to task better differentiate the bussiness
+faster time to market
+
+Which of these statements are true with respect to severless architectures? Select all that apply.
+api can use many aws services as lambda event sources, including amazon api gateway, amazon s3, amazon alexa, and amazon sqs
+it is a best practice to desingn independent, higly cohesive, and decouopled lambda functions that connect other managed services together.
+
+pywren_______is an open source project that allows you to do extremely high throughput computing jobs using AWS Lambda as the compute engine behind the scenes.
+
+Which of these reflect best practices for serverless development environments and deployment processes? Select all that apply.
+give each developer sandbox environment where they can experiment
+create independent demo environments for feature branches
+automate your build  and deploy process
+leverage deployment and appliocation management tools within the community
+
+Which of these are Lambda features that support Serverless Development? Select all that apply.
+lets you run code without provisioning or managing servers
+triggers on your behalf in response to events
+scales automatically
+provides built in monitoring and logging
+
+What IAM entities must be included in an execution role for a Lambda function to interact with other services? Select all that apply.
+iam policity that defines the actions that can be taken
+trust policy that grants "assumeRole" permission to Lambda
+
+Which of these describe a resource policy? Select all that apply.
+can give amazon s3 permission to trigger a lambda function
+cant grant access to the lambda function across aws accounts
+determined who is allowed in
+
+Which of the following statements are true? Select all that apply.
+amazon s3 triggers lambda via asyncronous push
+amazon api gateway triggers lambda syncronously
+if lambda is unable to invoke a function trigerred by a message in an SQS queue, the fallen invoque will go to the DLQ(if one is configured)
+
+Place the Lambda lifecycle steps into the correct order, assuming it begins with a cold start followed by a warm start.
+event source triggers a lambda function that has not been invoked in a while
+launch container, download code, and initialize runtime
+initialize function dependencies then execute code
+event source triggers an invocation of lambda function that has recently been invoked
+thaw container then execute code
