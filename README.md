@@ -964,5 +964,289 @@ Throttling on the method at the stage level
 What appears to be the root cause?
 Resource policy associated with this API prevent access.
 
+-----------------------------------------------------------------
+AMAZON DYNAMO DB FOR SERVELESS ARCHITECTURES
+Which of the following are true of DynamoDB tables? (Select THREE.)
+All items must have a partition key. The unique primatry key inlcudes a partition key and optional sort key.
+Read and write capacity are managed independently.
+Tables can scale to any data volume.
+
+Which of the following workload characteristics might be a good fit for DynamoDB? (Select THREE)
+The data is "hot" - serving real-time, transactional, operational, interactive uses.
+The data must be stored in a higly available, durable, and highly scalable manner.
+The session states for your application need to be stored off your instances.
+
+
+One basic factor for success with DynamoDB is: (Select ONE.)
+choose a high cardinality partition key for even item and request distribution
+
+Which statements about consistency are true? 
+DynamoDb acelerator dax passes strongly consistent reads throug but does not cache them
+strongly  consistent reads can be made via a vpc endpoint
+local and global secondary indexes both support eventually consistent reads
+you can make two eventually  consistent reads(each up to 4kb) for one rcu
+al succesful writes are redundanttly stored and durable -  there is no eventual or strong consistency choice to be made for writes
+
+Local secondary indexes can only be defined at the time of base table creation – they cannot be deleted without deleting the base table. True or false?
+true
+
+
+Time-To-Live (TTL) can be used to have DynamoDB delete expired items from a table without being charged for WCU consumption. When you set an attribute for use by TTL, what is the value you should set for that attribute to result in expiry?
+the epoc timestap(with unit se3conds ) after wich the item can be removed.
+
+Which of the following statements about DynamoDB streams is false?
+Dynamodb streams can be used to audit read activity for a table.
+
+Optimistic concurrency control in DynamoDB provides a form of locking. Which is the correct description of the mechanism?
+Read, transform, conditionally write, retry as required.
+
+Which of the following is a commonly recommended serverless pattern for aging out DynamoDB data to a cold storage tier?
+Enable dynamodb streams and use ttl to expire older items. a lambda function is trigered on the change and writes the deleted item data into s3 via kinesis firehose
+
+Which of the following are parameters to DynamoDB Auto Scaling? (Select all that apply)
+minimum capacity
+maximum capacity
+target utilization
+
+The business has asked you to build a résumé submission service to connect to their job listing webpage. The service needs to integrate with their legacy system to match the submissions to existing candidates. Very high bursts of traffic are expected when a new job is posted, and you don't control the UI layer.  The order in which the resumes are processed is not critical. What serverless patterns make the most sense? Select THREE.
+Use an SQS queue to receive and respond to requests coming through API Gateway.
+Use a standard SQS queue as an event source for Lambda.
+Use a Lambda function to initiate a Step Functions flow that orchestrates the integration with the legacy system.
+
+You have an internal service and need to minimize calls between client and service. - Trusted webhooks
+You want a two-way, persistent connection between the client and the backing service. - WebSockets with API Gateway
+You want to implement a serverless approach with minimal rework to existing services. - Client polling
+You have an app with rapidly changing, high volumes of data. - WebSockets with AWS AppSync
+
+Which of these scenarios points to using the claim check pattern?
+You have an API endpoint connected to an SQS queue that clients use to post high-resolution video files for processing by a Lambda function.
+
+Select the scenarios where you might select Kinesis Data Firehose for data processing. Select THREE.
+You want to ingest a very high volume of data and store it to Amazon Redshift.
+You want to ingest a very high volume of data, transform its format, and store it to Amazon S3.
+You want to simplify retry handling on streaming data, and order of records in the stream is not critical.
+
+You're setting up an Amazon SQS queue as an event source to a Lambda function that takes an average of 3 minutes to process each message. Select the most appropriate configuration options as a starting point. Select THREE.
+Set the batch size to 4 or lower.
+Set the visibility timeout on the queue to 6x the function timeout.
+Configure a dead-letter queue.
+
+Which of these statements about AWS Step Functions States Language are true?
+Task and Parallel states can have a field named Retry. An individual retrier represents a certain number of retries.
+You can use a Retry or Catch field to handle timeouts.
+The Amazon States Language defines a set of built-in strings that name well-known errors, all beginning with the States. prefix.
+The reserved name States.ALL is a wildcard that matches any error name.
+
+Subsegments - You need a more granular breakout of the work done in a request to resolve the issue.
+Service graph - Customers have reported issues using a service, and you need a quick sense of status.
+Annotations - You want to be able to group traces across application operations to compare performance.
+Traces - You've identified failures at an integration point and want to review individual requests.
+
+Migration questions to answer:
+"Let's talk about where we want to be as a development organization next year and the skills we need our developers to grow to get there."
+"Let's look at what it would take to adopt a 'serverless first' strategy for new features only."
+"Do we have any 'low-hanging fruit' like cron jobs or workers listening to a queue that we could experiment with?"
+"Who owns the data and who uses it?"
+
+Spiky, unpredictable compute workload -  AWS Lambda
+Horizontal scaling and millisecond response times for transactional data - Amazon DynamoDB
+Read transactional data from a DynamoDB table and index it to other data stores - Amazon DynamoDB Streams
+Lift and shift an existing application to serverless with minimal rework - AWS Fargate
+Sub-millisecond read and write latencies for a gaming leaderboard - Amazon ElastiCache for Redis
+Model state changes to transactional records in a cryptographically provable manner - Amazon QLDB
+
+Your service uses an SNS topic called "Profiles," which is used to notify customer service when a customer updates details on their website profile. Customer service wants to provide a personalized follow-up for customers based on whether they select a preference for delivery or pick-up service. What approach would you recommend to process each of these preference updates differently?
+Modify the existing Lambda function that publishes the Profile topic to include attributes for delivery preference and pickup preference. Use SNS filtering to determine which subscribers get those messages.
+
+Which of these statements about serverless scaling are true? Select all that apply.
+With serverless, you don’t have to set up Auto Scaling groups and subnets, because you’re using managed services that have built-in horizontal scaling, security, and high availability.
+You need to evaluate trade-offs across the architecture; look at service limits end to end to identify potential bottlenecks; and balance performance requirements, costs, and business impact.
+For asynchronous sources, concurrency is measured as average function duration * request rate. For streaming invocations, there is a limit of one concurrent invocation per shard.
+
+You recently deployed the serverless order processing service into production, and monitoring reveals failures on a Lambda function that integrates with a slow-running query on the backend that can't keep up with the request volume. What might be an option that you could implement from API Gateway?
+Use throttling on the API method.
+
+After someone made an update to an SQS source queue attached to a Lambda function, which was also updated, you got a report of an increased number of messages hitting the dead-letter queue. Which of these might be the cause? Select THREE.
+Concurrency limit on the function changed from 10 to 4.
+Batch size * average message processing time > 15 minutes.
+There is increased traffic, and the rate of errors is a proportional increase.
+
+Which of the following statements reflect recommended approaches? Select TWO.
+DynamoDB on-demand mode is a good fit if you have to track the cost of individual transactions.
+Provisioned capacity may be the better choice if you have a very consistent, predictable workload.
+
+Both Step Functions and Amazon SNS can help you to scale your serverless applications. Which of these describe guidelines for using these services to support scaling your application? Select THREE.
+Use wait states and callbacks in Step Functions to reduce costs when your workflow has to wait on other tasks to complete.
+End a Step Functions activity that is stuck waiting on a response when something has failed with TimeoutSeconds.
+Use AWS Event Fork Pipeline applications to deploy pre-built applications that use SNS to execute common tasks in parallel.
+
+Which of these is an advantage to using Kinesis Data Streams enhanced fan-out?
+It gives more bandwidth to multiple consumers of the same stream.
+
+Which of these is NOT a recommendation for testing serverless applications?
+Iterate on your testing until you get an error-free result at your estimated peak load.
+
+
+AWS IAM - An admin wants to limit the actions a Lambda function can take on a DynamoDB table.
+AWS Lambda authorizer - A developer wants to secure their API using custom business logic.
+AWS Systems Manager Parameter Store - A team wants to share secrets across their Lambda functions in a single AWS account.
+AWS WAF - A security team wants to block traffic to their website that originates from Russia.
+AWS Secrets Manager - A security expert wants to share sensitive information across multiple AWS accounts.
+Amazon Cognito - A website wants to allow users to sign in through a third-party application.
+
+X-Ray - A developer is investigating higher than normal latency for requests to one of their APIs.
+CloudWatch Logs Insights - A team wants to search and query the logs for their API.
+CloudWatch Logs - An engineer wants to see in plaintext what parameters are being passed into a function.
+CloudWatch metrics - A developer needs to check how many times a Lambda function has been invoked.
+
+
+Your IT department has concerns about giving each of your developers their own AWS account and permission to make code updates. Which of the following suggestions is not a valid response to the stated concern?
+Can we maintain a 2-year history of API activity? 
+CloudTrail will automatically maintain a complete history of events for the account and write them to an S3 bucket for analysis.
+
+
+Your company is developing a serverless banking application. The company is about to release a new feature, allowing users to chat with a representative inside of the app. Your manager asks you to make sure that the new feature is delivered as seamlessly as possible.
+Which of the following choices will help your team deploy this new code successfully? (Select all that apply)
+
+
+
+Audit changes by monitoring AWS CloudTrail and Lambda CloudWatch metrics.
+Have the ability to halt or roll back bad deployments.
+Deploy changes through a planned and automated process.
+
+SAM template - AWS CloudFormation compatible template using shorthand syntax
+SAM package - Creates a deployment package for your template
+SAM deploy - Deploys your template into an AWS CloudFormation stack
+SAM CLI - Allows you to test your code and emulate the Lambda environment locally
+
+Pulling configuration data from Parameter Store may incrase latency when you call your Lambda function. How can you reduce this latency, while maintaining security best practices?
+Pull configuration data from Parameter Store and store it in a global variable. Allow function code to check if you need to pull or update the parameter.
+
+Alarms - Helpful to trigger the rollback process
+Deployment preferences - This is where you choose whether you want a canary, linear, or all-at-once deployment
+Hooks - Sanity checks to test and perform actions against your code
+Post-traffic hook - Executed after traffic shift
+Pre-traffic hook - Executed before the alias can accept traffic
+
+Your team is developing a serverless dating application for dogs. Your manager asks you to architect a CI/CD pipeline for all new updates to the application to go through, making sure there are no Amazon EC2 instances hosting them.
+Which AWS services do you use to help architect the pipeline? - Use CodeCommit for version control, CodeDeploy to deploy the application, and CodePipeline to trigger the deployment once a developer pushes to CodeCommit.
+
+PRACTICE TEST:
+A team of developers created a serverless, distributed application on AWS. For custom business logic and application code, they're using Lambda. They're using API Gateway in front of their Lambda endpoints and using Amazon S3 as the storage system for their data. The team wants to deploy a new version of their application but needs the ability to roll back automatically if a resource isn't properly built out.
+How can the team best meet this requirement?  
+Use the AWS Serverless Application Model to define the latest version of the application.
+
+A development team has just finished migrating a stable application to Lambda. They're now looking to release a patch version of their application in a safe and gradual manner. The team is planning on sending 10 percent of traffic to the patch version for 30 minutes before directing all of the traffic to the new function.
+Which of the following strategies could the team use to test out their new feature? Select TWO.
+Use the SAM to configure a Canary10Percent30Minutes deployment preference.
+Enable traffic shifting for an alias using the Lambda API.
+
+The command SAM ____deploy____ will deploy your SAM template. 
+
+A developer is creating a distributed, serverless application, made up of Lambda functions, APIs, DynamoDB tables, and Amazon S3 buckets. Lately, the developer has been noticing an increase in latency when performing certain API calls.
+What AWS service or feature might help them troubleshoot the performance issue? 
+Use X-Ray to dig into the appropriate trace segments.
+
+A Lambda function must access a database using a connection string and a regularly rotated password. These items must be stored securely and cannot be hardcoded inside of the application.
+Which of the following AWS services can help accomplish this? Select TWO.
+AWS KMS
+AWS Systems Manager Parameter Store
+
+A developer is investigating performance issues in an application. The developer finds that one of the Node.js Lambda functions is a bottleneck and performing poorly compared to the other functions.
+Which of the following will not help the developer increase the performance of the function?
+All of the answers may help increase the performance of the function.
+
+Which of the following are true about Amazon SQS and Lambda? Select TWO.
+If a Lambda function returns errors when processing messages, Lambda decreases the number of processes polling the queue.
+Lambda has a default of 5 parallel processes to get things off of a queue.
+
+True or false? With Kinesis Data Streams, there are no error handling configurations  built-in to the service.
+False
+
+A team of developers has an application that currently runs off of Docker. You recently read about serverless technologies, which aim to remove infrastructure management burden. When you bring this up with your team, they retort that the application "just can't do serverless." The team states that they don't want to have to rewrite the application and don't think that their long-running tasks are suitable for serverless.
+Which service provides the least infrastructure management burden on the developers but still meets the team's requirements?
+AWS Fargatef
+
+
+A company is building an ecommerce application with an ordering workflow. When an order is placed, they need to communicate status back to the calling client. They need a pattern that reduces the number of API calls required and lets the client filter out data that it doesn't need.
+Which of the following patterns for communicating status updates would be the best option?
+WebSockets with AWS AppSync
+
+A company owns an ecommerce website that sells dog pajamas. Whenever an order is placed for a product, the company would like to send an email alert to the customer and at the same time, process the order and update the inventory database. After a popular talk show host talked about the website, the company is having issues processing orders as they're coming in. They often create duplicate orders for their customers.
+Which of the following architectures would meet the company's requirements and create a better customer experience?
+Use the SNS fan-out pattern. When the order is placed, send a message to the SNS topic, with customer email addresses and an  FIFO SQS queue as the subscribers. Use Lambda to poll the queue, filter the message, and update the database.
+
+Your Lambda function is not processing Kinesis Data Streams records in a timely manner, and the IteratorAge metric is increasing on your Lambda dashboard.
+What is the best strategy for dealing with this?
+Reshard to increase the number of shards in your stream.
+
+A company is designing a Step Functions workflow, made up of a series of Lambda functions and a DynamoDB table. The application seems to have a very consistent, predictable workload, and the cost is high. You have been hired to analyze their application architecture and give cost-saving recommendations.
+Which of the following options may lower the cost of their architecture? (Select THREE)
+Use wait states and callbacks in Step Functions.
+Use AWS Lambda Power Tuning.
+Use provisioned capacity for DynamoDB.
+
+A team of developers noticed that one of their Lambda functions keeps failing. One of the team members wonders why the service did not retry the request.
+Which of the following could explain why the function was not retried?
+The team is using a synchronous event source to invoke their function, which has no built-in retries for a failed or throttled request.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
