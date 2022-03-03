@@ -1190,6 +1190,173 @@ A team of developers noticed that one of their Lambda functions keeps failing. O
 Which of the following could explain why the function was not retried?
 The team is using a synchronous event source to invoke their function, which has no built-in retries for a failed or throttled request.
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Select the answer that best describes DevOps:
+DevOps is the combination of cultural philosophies, practices, and tools that increases an organization’s ability to deliver applications and services at high velocity.
+
+Which of the following best describes the challenges associated with traditional software development methods?
+Traditional software development methods often involve monolithic architectures that are difficult to update and deploy, development methods that are not iterative, and have long release cycles.
+
+Your management team has decided that they want to move from their current traditional software development model and adopt a DevOps model. What changes will they need to implement to move to DevOps?
+Moving to DevOps requires a cultural shift, implementing DevOps practices, and using the right tools to automate processes.
+
+Your manager is concerned about moving to DevOps because he believes that all existing tools will need to be replaced with AWS tools. What can you tell him to alleviate his concerns?
+Tell your manager that DevOps is a methodology and not an AWS product. Let him know that only tools that are not optimized to work in a DevOps environment should be replaced. AWS has great tools, but also supports tools from many industry-leading vendors.
+
+Which monitoring and observability service would be most useful for debugging and tracing distributed applications, such as those built using a microservices architecture? (Select the best answer.)
+AWS X-Ray
+
+You are part of a DevOps team that is planning to set up, patch, and maintain the build server software. Your team does not want to own the managing of or building of hardware or software. You want a tool that automatically scales to meet your build volume, immediately processes each build you submit, and can run separate builds concurrently. Which one of the following services will provide the team with the functionality needed?
+
+You are part of a DevOps team that is planning to set up, patch, and maintain the build server software. Your team does not want to own the managing of or building of hardware or software. You want a tool that automatically scales to meet your build volume, immediately processes each build you submit, and can run separate builds concurrently. Which one of the following services will provide the team with the functionality needed?
+AWS CodeBuild
+
+Your company is a global IT enterprise that recently adopted DevOps. Your team has chosen AWS CodeDeploy as a deployment tool to handle application deployments. Which of the following features makes it a right choice for automation?  (Select FOUR.)
+It can deploy to on-premises and Amazon EC2 instances
+You can extend deployments to multiple regions.
+You can perform zero-downtime deployments.
+It works with a variety of configuration management, continuous integration, source control, and deployment systems.
+
+What are the main benefits of implementing DevOps? (Select SIX)
+Increased speed
+Improved collaboration
+Improved security
+Rapid delivery
+Scale quickly
+Reliably deliver quality applications
+
+
+Your customer has decided to adopt DevOps. Their DevOps team is choosing the right tools for the source control process. They would like to know how AWS CodeCommit differs from other Git-based source control systems. What will you tell them to help them understand the differences? (Select FOUR)
+There is no need to host, maintain, and backup your own source control servers.
+It automatically encrypts your files in transit and at rest.
+It is built on highly available, redundant, and durable AWS services.
+It increases the speed and frequency of your development lifecycle by keeping repositories close to your builds.
+
+Your IT enterprise has recently adopted DevOps and wants to automate their software delivery process. You want to model the full release process for building your code, deploying to pre-production environments, testing your application, and releasing it to production. Which one of the following AWS services will enhance your ability to further integrate with other AWS and third-party products?
+AWS CodePipeline
+
+in aws wich secutiry aspects are the customers reponsibility
+
+--------------------------------------------------------------------------------------------------
+Networking Learning Plan
+
+ns1.amazonaws.com is the autoritatuve name server of the amazonas.com domain where should the glue records be created
+
+in the hosted zone of com. TLD
+
+
+DIG IS A COMMAND LINE UTILITY THAT´S USEFUL IN TROUBLESHOOTING MANY COMMON DNS RESOLUTION ISSUES(TRUE)
+
+Configuring and deploying amazon vpc with multiple subnets
+
+What is the maximum number of AWS Regions in which an Amazon Virtual Private Cloud (Amazon VPC) can be deployed?
+1
+
+Is the following statement correct: To ensure high availability, you should make your subnets span across more than one Availability Zone (make them Multi-AZ).
+No, because it is not possible to make a subnet Multi-AZ.
+
+
+True or False: The Amazon Virtual Private Cloud (Amazon VPC) is where all Amazon web Services (AWS) resources are launched.
+False
+
+In order for resources in your public subnet to reach the internet, they need to be provided with what kind of target? 
+Internet gateway
+
+---------------------------------------------------------------------------------------------------------------------------------------------
+AWS Identity and Access Management (IAM)
+
+Security group - Ensure that only instances from your IP address can access a specific Amazon EC2 instance
+AWS Identity and Access Management (IAM)- Giving your admin permission to create new subnets
+VPC Flow Logs- Tracing network activity to a specific IP address
+Amazon CloudWatch - Detecting that the database is suddenly experiencing extremely high read rates
+Network Access Control List (network ACL) - Keeping all instances in your mail server subnet from reaching your database subnet
+
+
+True or False: Since Amazon VPC is highly available by default, there's no need to provide a second set of resources in a second subnet. If the resources in one subnet fail, it automatically fails over to a new subnet.
+False
+
+What would you need to configure a second subnet with to maximize the availability of resources?
+Availability Zone
+
+True or False: Each subnet needs its own separate route table.
+FALSE
+
+You can use Elastic Load Balancing to provide which of these for your infrastructure:
+Traffic management between resources in different subnets
+Automatic failover from unhealthy connections to healthy ones
+Automatic registration of new healthy instances to your load balancer
+
+Stateful is allowing traffic in and the response out automatically.
+Stateless is allowing traffic in and the response blocked from leaving unless explicitly permitted by a rule. (Select TWO.)
+Security groups are stateful.
+Network Access Control Lists (network ACLs) are stateless.
+
+How many Availability Zones can you use in one Amazon VPC?
+Up to as many Availability Zones as are in that AWS Region.
+
+For which of the following is a default route table provided automatically? (Select TWO):
+Each Amazon VPC you create
+Each subnet you create
+
+What is the standard default address range used to route all outbound traffic to an Amazon Virtual Private Cloud (Amazon VPC) internet gateway?
+: 0.0.0.0/0
+
+Classless Inter-Domain Routing (CIDR) blocks specified in route tables must be unique and cannot overlap.
+False
+
+Select all true statements. Elastic Load Balancing (ELB) ... (Select TWO.)
+bvg              
+
+Select all true statements. Elastic Load Balancing (ELB) ... (Select TWO.)
+Is a managed service and is highly available by default.
+Load balancers can be internet facing or internal facing.
+
+Applications - Private with routes to the public subnet
+Data - Private with NO routes to the public subnet
+NAT solutions - Public
+
+Assuming the choices on the left are your chosen Classless Inter-Domain Routing (CIDR) block sizes, match them to the appropriate subnet on the right based on the multi-tier Amazon VPC architecture from this course.
+/20 - Private (Applications)
+/21 - Private (Data)
+/22 - Public
+
+Which of these traffic patterns is correct for the multi-tier design pattern?
+Internet gateway -> Application Load Balancer -> Applications -> Data -> Applications -> network address translation (NAT) solution -> internet gateway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
