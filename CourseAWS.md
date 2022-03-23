@@ -103,7 +103,21 @@ Y un atributo puede tener otras cosas
 
 Segundo Lab iniciado: Developing on AWS - Lab 2 (Python) - Develop Solutions Using Amazon S3
 
-quedé en este comando: client = boto3.s3.client()
+quedé en este comando: python create-bucket.py
+debido a que dice que boto3 no tiene .s3
+
+link para notas de buckets: https://notes-bucket-sp-0211.s3.ap-southeast-1.amazonaws.com/index.html
+
+Aplicación de notas: http://notes-bucket-reap-76001.s3-website-ap-southeast-1.amazonaws.com/
+
+las quiz of the class 11 de marzo
+Los querys siguen siendo mas eficientes por ejemplo que escanear tablas
+
+
+empezamos a ver Lambda
+Depronto dentro de solutions hay otro config hay que poner las credenciales del nombre y postal y el nombre tiene que ver con un bucket o algo asi
+segun prajad hay que ejecutar todos los comandos desde una misma terminal
+
 
 
 

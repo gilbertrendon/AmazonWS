@@ -1325,6 +1325,100 @@ Which of these traffic patterns is correct for the multi-tier design pattern?
 Internet gateway -> Application Load Balancer -> Applications -> Data -> Applications -> network address translation (NAT) solution -> internet gateway
 
 
+14 de marzo 2022
+lambda
+function handler
+
+sehablaunpocodelas respuestas comunes delos serviciosusando lamba(errorhandling )
+lambda limits figura(limitslambda.png) 
+
+ejemplito con lambda
+https://sharablenotesandlinks.s3.us-east-1.amazonaws.com/lambda-demo.py?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEOb%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCmFwLXNvdXRoLTEiSDBGAiEA33JhaO0pTYLA%2FhamAjogalwYgMIKiv3Uesam8ftSq8kCIQDjdm54hPWKdPiWdWn9OnDfatufegrPR92xDRENrcNG5Cr7AghfEAMaDDIxMTM1Mzc4NDExOCIMdzg42GWeXYKFQzfbKtgCHYsDDhk4Gs98ikvqsDjW7gQ3wZLQpx9xG9S6k4YSQLqKWmq0sSxWGRuWLv9MpBtF8but7j%2BPMMt1JrRJX%2BHgEfYHCCD5thWJjsrnHCTiq58jheV1lG2tnta%2BGPk1MsH7OoMNHYnSAFiJt1EpWc3TH20g5J4FiVkWTT0xCb6qMZ24rsMlF%2Fb%2FEYRaEi1iar7DHo96fE%2BqN1Rentbo058ARGc0U%2BOr8%2BUbc%2BPt8XLpoHEOQBrxj0S0J8v7nbQ4IfYmmIj1iYFiKv%2BmQuIEahInuZrW8nNo35yFUeSmVuMytNPiX5C%2Bx%2BZt2TB%2FTELY4W5M%2Byvu8EgLqY6IHawo%2Fe%2BrR%2BunBQQ8FLP%2FBrDuOFR1RGqQGHadsyuSaTJNekShPldsOSPjipkqXt4WD%2FPkNZ18cVAy12zkRYMePu6QTVp0nTXxRcZ2LD2wIiAbHA%2FY%2BpDzqZnDdfnGIFgwp9K6kQY6sgIt93i6nI%2BHarPjoNFFWMYlnYgVoiCbyKkHUG0JpZ%2Be1y7DTQoJIu8p9v%2BGd0Bgx6N478mmKnX5f5B6YKzq0FGupY2LjWarAUlYueAahIbZZaU153osKCBifGXIEVEwg5bEMkRKKTfye4ZdRPdSOYixwc5gnigxFE8VOnqAcOrOml5TPGsnq%2F8Upc8u7KNke9cvQoLU43Us9aOe63%2FoiAeFL8LNbA3zJ7N0RNQbSPxL4Tix7Nqc62wh83aqIbaIzJipi5azc5zLacq52psAIt41GRaxbjftzISJNfYHwEpLuVCk8lz1ObWrP8U1YjnF8ue1qVCrTneTqfDWZmql37IgCLkteeBVGB4Qrfix6wTixrdfsXskOxk9IrbHV94rOynrGt36%2B3BjMTnxd3r5CP1cqrA%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20220314T141556Z&X-Amz-SignedHeaders=host&X-Amz-Expires=900&X-Amz-Credential=ASIATCNNKZ43LF5PTTXG%2F20220314%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=30d11fed71eed471cef64033e680846e7d6d6d8de4d84da4818f94477f6289ca
+
+Las guías están en Python 3.9
+
+WebSocket
+WebSocket es una tecnología que proporciona un canal de comunicación bidireccional y full-duplex sobre un único socket TCP. Está diseñada para ser implementada en navegadores y servidores web, pero puede utilizarse por cualquier aplicación cliente/servidor
+
+Aquí se crean registrosen customer list:
+https://tachyonknowledge.com/contact-us.html
+
+15 marzo 2022
+Greetings of the day folks! Today's Agenda:
+Demo: Lambda and API Gateway Integration 
+
+Lab# 5 
+
+M#11 
+
+Demo: SAM and Step Function 
+
+Tachyon, the nextgen software products as a service. TacDev is responsible for all developments of the Tachyon. TacArc coordinates with TacDev and TacOps. Tachyon has all forms of data like its web styling and scripting, course catalogs, images and TOC, which may be static. Tachyon has time series data from its live sessions, videos and audios which has dynamic schemas. Tachyon has transactional data which maintains a strict schema. Tachyon would not be paying for any idle resources, therefore would use all serverless resources with proper orchestration and workflows. Tachyon architecture is highly decoupled and performant by using microservices and secure endpoints. Tachyon Data is secure while in transit, at rest and while in use. Tachyon is agile and cloud native (even its dev, test, stage and production workload runs on cloud/multi-cloud)! Tachyon Practices latest software design patterns and practices, it has hundreds of releases per day with proper customer feedback implementation. All Compliances are met in the CI/CD pipelines phases ...
+
+Monolític@, microservicios, 
+
+quiz of the day figura(Serveles-microservices-monolitic(oneServer).png)
+
+crear una máquina de estados de función: https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-state-machine-using-sam.html
+
+16 de marzo
+ya casi tenemos el examen
+hablar para aplazarlo un poco(en caso de que sea demasiado pronto)
+
+Hablamos de Amazon cognito
+quiz cognito (quizcognito.png)
+
+Se le trabaja a este lab: Developing on AWS - Lab 6 - Capstone - Complete the Application Build
+
+Pool Id ap-southeast-1_5nqZSBhvi
+Pool ARN arn:aws:cognito-idp:ap-southeast-1:765075024777:userpool/ap-southeast-1_5nqZSBhvi
+
+quedé en la parte donde se abre cloud9
+
+17 de marzo 2022
+Q1. With respect to AWS certification exam, which module or topic we have to give more efforts as compared to others, which module will have more weightage and domain specific questions? 
+
+Answer: 
+
+Certification Related 
+
+1. DVA C01 Links: AWS Certified Developer - Associate 
+ 
+https://aws.amazon.com/certification/certified-developer-associate/ 
+ 
+2. Sample Exam Questions 
+ 
+https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Sample-Questions.pdf 
+ 
+3. AWS Certified Developer - Associate 
+ 
+(DVA-C01) Examination Guide https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS_Certified_Developer_Associate-Exam_Guide_EN_1.4.pdf 
+
+Q2. Minnd Map (https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf) 
+
+**If you're reading after a gap!!! 
+
+The Unlimited Mind: Master Critical Thinking, Make Smarter Decisions, Control Your Impulses 
+
+Minnd Map  
+
+2: Security 26% Domain – IAM, Cognito, ACM and ASM 
+
+3: Development with AWS Services 30% Domain – Service Client, Resource APIs for C|S|N  
+
+4: Refactoring 10% Domain – Caching, Dependency isolation 
+
+1: Deployment 22% Domain – CI/CD 
+
+5: Monitoring and Troubleshooting 12% Domain – CloudWatch and X-Ray 
+
+***If you need some recommended books name, pl. let me know 
+
+Q3. [8:50 PM] Mohd Ahmad (Guest) 
+
+    Hellp SP, You said give your certification when you feel you are ready.....chow onc feel he or she is ready? like if we are able to score good marks in Test? 
+
+Ans: Please join exam readiness workshops for developer associate, attempt practice exams for developer associate and attempt any assessment quizzes for developer associate before you plan to write the certification exam! 
 
 
 
@@ -1332,13 +1426,12 @@ Internet gateway -> Application Load Balancer -> Applications -> Data -> Applica
 
 
 
+QUIZ DEL DÍA(RELACIONADO CON TEMAS ANTERIORES) figura quizEnding.png
 
 
+Hacer el lab de XRAYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY
 
-
-
-
-
+EN EL CORRÉO ESTÁ UN EXAMEN DE PRUEBA...
 
 
 
