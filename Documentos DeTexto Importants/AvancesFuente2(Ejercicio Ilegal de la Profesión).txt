@@ -1,0 +1,261 @@
+UNIVERSIDADJAVERIANA - CERTIFICADOS LABORALES
+José Rendón, Oscar Hurtado
+
+Solución
+- Fila 62 del excel
+- link:
+https://cea.javeriana.edu.co/academia/departamento-economia/profesores-planta
+-este es el xpath de los nombres de los profesores 
+//*[@id="dircom-pw-boton-imagen-texto-contenedor-contenido"]/div[1]/a/text()').getall()
+
+Segunda tarea: Ejectuar los comandos del docker file
+Luego dentro dela carpeta external sources(dentro de projects)
+ en vez de sisben metemos el projecto que hemos hechohasta
+ el momento
+
+URL DEL SERVICIO: http://localhost:80/crawl.json
+
+scrapyrt -i 0.0.0.0 -p 8080
+
+//Lo que se manda en el body del requesttipo post(raw)
+{            "jsonUserData": 
+"{\"rowId\":1,\"identificationType\":\"3\",\"identityNumber\":\"15348187\"}",
+            "spider_name": "sisben",            "start_requests": "True"       
+
+ }
+
+
+PRUEBAS UNITARIAS(APUNTES)
+
+Coverage y Pytest(Para la cuestión de las pruebas unitarias)
+pytest + ruta al archivo depruebas unitarias
+coverage run -m pytest externalSources/projects/ing_quimicos/scrapyIngQuimicos/tests/ingquimicos_test.py
+coverage report para ver los porcentajes de covertura
+coverage html para que los resultados queden en un nuevo directorio
+coverage html para ver detalladamente cada covertura
+coverage xml para generar el xml final
+
+Poner en el archivo de requerimientos(similar a como está creado en el ejemplo) todo lo que
+ se vaya instalando el archivo de requerimientos lo metí en el proyecto de ejemplo del sisbén
+
+Veriricar que se tenga en cuenta la versión de pyton del cliente o usuario bancolombia ...
+
+
+AJUSTES(Los pasos están en el documento de word) 
+- En default_settingscambiar en RESOURCES EL nombre
+
+2modificiaciones a las referencias de end point ...
+HACER TODO CON CAMELCASE
+ejm:
+"items": [
+{
+"ID": 1,
+"DATA": {
+"registroValido": [
+{
+"mensajeDatosActualizados": "Registro válido",
+"grupoSisben": "No pobre no vulnerable",
+"fechaConsulta": "02/12/2021",
+"ficha": 5631026560300000703,
+"nombres": "HECTOR FREDY",
+"apellidos": "BAENA CASAS",
+"tipoDocumento": "Cédula de ciudadanía",
+"numeroDocumento": "15348187",
+"municipio": "Sabaneta",
+"departamento": "Antioquia",
+"cantidadCamposNoEncontrados": 1
+}
+],
+"informacionAdministrativa": [
+{
+"encuestaVigente": "08/10/2019",
+"ultimaActualizacionCiudadano": "10/10/2019",
+"ultimaActualizacionRegistrosAdministrativos": ""
+}
+]
+}
+}
+],
+
+
+...
+Si es un elemento el json es diferente que cuando son varios ...
+
+
+PASOS PARA SUBIR AL REPOSITORIO:
+* Desde cmd como admin(git config --list)-para ver los parámetros configurables
+*Configurar lo siguiente: git config --global user.name "gilbertrendon" ó el usuario de bancolombia
+git config --global user.email "jilberlv@gmail.com"
+git commit --amend --reset-author
+
+
+git pull origin feature/ConsultaPuntajeSisben
+
+git add --all ó git add .
+git fetch origin feature/ConsultaPuntajeSisben
+git commit -m "nombreDelCommit"
+git push origin feature/ConsultaPuntajeSisben
+(conde feature/ConsultaPuntajeSisben es la rama sobre la que se está trabajando)
+
+*git checkout feature/ConsultaPuntajeSisben
+Para devolver cambios
+
+* Nota: Se trabaja similarmente a la alcaldía los pull request
+
+Nota: Se metió la carpeta tutorial dentro delproyecto de bancolombia al nivel de SISBEN
+CPIQ - INGENIEROS QUIMICOS
+TERCERA FUENTE:Está en Inventario Fuentes Externas Publicas VF.xlsx
+link: https://www.cpiq.gov.co/validacion_matricula_profesional.php
+
+Cuando se ingresa la identificación del usuario:
+Request URL: https://www.cpiq.gov.co/validacion_matricula_profesional.php    (POST)
+Debo enviar cedula y el otro codigo desde el cliente de posman
+Una cédula de ejemplo es la siguiente: 1030590657
+
+demjson==2.2.4
+
+scrapy==2.5.1
+
+scrapyrt==0.12.0
+
+requests==2.26.0
+
+python-anticaptcha==0.7.1
+
+SE DEBE LLENAR EL INSUMO PARA EL FRONT END(En una parte describe los elementos que tiene la página web por ejemplo textboxs, Listas desplegables, etc)
+*Se deben quitar activarambiente.bat, desactivarambiente.bat
+*instalar_dev.ps1 arrastrar ...
+*ejecutardev se debe cambiar el nombre de la carpeta y scrapy...
+*La(s) carpéta(s) logs no se sube(n)
+*las variables del jsonUserData deben ir en español(teniendo en cuenta que en la página web puede que vayan en inglés)
+*todas las variables locales van a aser en minúsculas separadas por guión cuando son variables compuestas
+*...Hay una parte que el True es false ...
+
+DOCKER:
+ docker build -t ing_q .
+ docker run -p 80:8080 ing_quimicos
+
+AJUSTES SPIDER:
+"""
+    To consult the data of engineer using POST, the service must be started with:
+     scrapyrt -i 0.0.0.0 -p 8080
+
+    Then the data that is sent by POST must have the following structure:
+        {
+           "jsonUserData": "{\"rowId\":1,\"id_number\":\"1030590657\",\"id_mp\":\"\",\"verificar\":\"\"}",
+           "spider_name": "ingenierosQuimicos",
+           "start_requests": "True"  
+        }
+
+    The json returned by the spider has the following structure:
+        {
+            "status": "ok",
+            "items": [
+                {
+                    "ID": 1,
+                    "DATA": {
+                        "nombre": "JHONATAN",
+                        "apellidos": "GÓMEZ RAMIREZ",
+                        "numeroDocumento": "1030590657",
+                        "numeroMatriculaProfesional": "18409",
+                        "tipoSancion": "N/A",
+                        "fechaInicioSancion": "N/A",
+                        "fechaTerminacionSancion": "N/A",
+                        "numeroResolucion": "13323",
+                        "estadoMatricula": "Vigente",
+                        "fechaExpedicion": "12-09-2014"
+                    }
+                }
+            ],
+            "items_dropped": [],
+            "stats": {
+                "downloader/request_bytes": 938,
+                "downloader/request_count": 3,
+                "downloader/request_method_count/GET": 2,
+                "downloader/request_method_count/POST": 1,
+                "downloader/response_bytes": 113241,
+                "downloader/response_count": 3,
+                "downloader/response_status_count/200": 3,
+                "elapsed_time_seconds": 3.065753,
+                "finish_reason": "finished",
+                "finish_time": "2021-12-23 18:08:29",
+                "httpcompression/response_bytes": 98,
+                "httpcompression/response_count": 1,
+                "item_scraped_count": 1,
+                "log_count/DEBUG": 4,
+                "log_count/INFO": 9,
+                "request_depth_max": 1,
+                "response_received_count": 3,
+                "robotstxt/request_count": 1,
+                "robotstxt/response_count": 1,
+                "robotstxt/response_status_count/200": 1,
+                "scheduler/dequeued": 2,
+                "scheduler/dequeued/memory": 2,
+                "scheduler/enqueued": 2,
+                "scheduler/enqueued/memory": 2,
+                "start_time": "2021-12-23 18:08:26"
+            },
+            "spider_name": "ingenierosQuimicos"
+        }
+
+    Example 2: When ERROR OR DATA NOT FOUND
+    Then the data that is sent by POST must have the following structure:
+        {
+           "jsonUserData": "{\"rowId\":1,\"id_number\":\"ASDFASDF\",\"id_mp\":\"\",\"verificar\":\"\"}",
+           "spider_name": "ingenierosQuimicos",
+           "start_requests": "True"  
+        }
+    
+    The json returned by the spider has the following structure:
+     {
+            "status": "ok",
+            "items": [
+                {
+                    "ID": 1,
+                    "DATA": {
+                        "mensaje": "No se encuentra información para el ingeniero químico seleccionado."
+                    }
+                }
+            ],
+            "items_dropped": [],
+            "stats": {
+                "downloader/request_bytes": 936,
+                "downloader/request_count": 3,
+                "downloader/request_method_count/GET": 2,
+                "downloader/request_method_count/POST": 1,
+                "downloader/response_bytes": 110639,
+                "downloader/response_count": 3,
+                "downloader/response_status_count/200": 3,
+                "elapsed_time_seconds": 3.411011,
+                "finish_reason": "finished",
+                "finish_time": "2021-12-23 18:13:39",
+                "httpcompression/response_bytes": 98,
+                "httpcompression/response_count": 1,
+                "item_scraped_count": 1,
+                "log_count/DEBUG": 4,
+                "log_count/INFO": 9,
+                "request_depth_max": 1,
+                "response_received_count": 3,
+                "robotstxt/request_count": 1,
+                "robotstxt/response_count": 1,
+                "robotstxt/response_status_count/200": 1,
+                "scheduler/dequeued": 2,
+                "scheduler/dequeued/memory": 2,
+                "scheduler/enqueued": 2,
+                "scheduler/enqueued/memory": 2,
+                "start_time": "2021-12-23 18:13:35"
+            },
+            "spider_name": "ingenierosQuimicos"
+        }
+
+    """
+
+OBSERVACIONES JUAN: Jose el último star Request , debe ir en False :
+Acticvar los artifactory y deshabilitar lo otro
+En Coverage en vez de la ruta debe quedar el nombre de la carpeta donde se está parado
+
+
+
+
+
+

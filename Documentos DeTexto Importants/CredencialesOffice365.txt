@@ -1,0 +1,121 @@
+https://myapp.tcs.com
+
+número de epleado
+Ultimatix
+
+
+Outlook  Exchange
+Abre navegador
+
+
+ID@tcs.com
+contraseña: Estier?ol480161*
+jose.rendonurrea@tcs.com
+contraseña aws: Steiko480161*
+
+contraseña de ultimatix
+Estier?ol2021*
+
+contraseña del dominio
+Arbol2021*
+
+para solicitar licencia E1 o E3
+
+Radicar un GPS
+
+
+VPN de TCS
+Cisco Any Connect
+ussecvpn.tcs.com
+usprivpn.tcs.com
+inmumvpn.tcs.com
+
+Se autentica con las credenciales de Ultimatix
+
+
+Bancolombia(vpn?)
+Para cambiar la contraseña de bancolombia
+https://accesoremoto.bancolombia.com/logon/LogonPoint/tmindex.html
+
+jgrendon    1152441479    Jose Gilberto Rendon Urrea        Ee1*gSbM169x/P Ee1*gSbM169x/G
+
+https://login.microsoftonline.com/b5e244bd-c492-495b-8b10-61bfd453e423/oauth2/authorize?client_id=00000003-0000-0ff1-ce00-000000000000&response_mode=form_post&protectedtoken=true&response_type=code%20id_token&resource=00000003-0000-0ff1-ce00-000000000000&scope=openid&nonce=876C7FE2028DEB04A861D3156B6E26A5B4B2C6ACFBD2D336-D289E96A9701ABB2A2D1315295BDB4ECBDA5BF54DA070AD529EA9A5E746BC372&redirect_uri=https%3A%2F%2Fbancolombia.sharepoint.com%2F_forms%2Fdefault.aspx&claims=%7B%22id_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&wsucxt=1&cobrandid=11bd8083-87e0-41b5-bb78-0bc43c8a8e8a&client-request-id=1158c79f-a044-0000-c9b9-0ff5052ec1dd&sso_reload=true
+https://mesadeservicio.bancolombia.com/usm/wpf 	
+https://livechat.boldchat.com/aid/417108825276829833/bc.chat?resize=true&cbdid=4064350648996178122&wdid=247346178155109454%27,%27name%27,%27width=620,height=740
+https://home-e31.niceincontact.com/incontact/chatclient/index.html
+
+Linea bancolombia para pedir permisos
+pedir liscencia ms65 o algo así	
+pedir en asesoría 
+usm usd(plataforma de pedidos)
+...
+TRANSFORMACIÓN Y SOPORTE
+4449988
+
+TCS
+C103500156
+Transformación y soporte
+
+
+cc 1152441479 
+Nombre José Gilberto Rendón Urrea 
+Usuario de red jgrendon 
+correo jgrendon@bancolombia.com.co 
+Tel: 3003801575 
+Edificio bancolombia o código sucursal: en el momento estoy teletrabajo pero la sucursal física queda en el olaya herrera en tata 
+Compañía tcs(bancolombia) tata 
+área desarrollo 
+Jefe del banco: Diego Fernando Bedoya Castaño 
+Perdón el area era Transferencia y soporte facilitadores digitales 
+Cargo del lider lider de TI 
+CENTRO DE COSTOS: C103500156
+
+
+INCIDENTE: 19510051 
+ORDEN DE CAMBIO: 3380114 
+
+Para lo del soporte usm o usd
+https://mesadeservicio.bancolombia.com/usm/wpf 
+Usuario: jgrendon
+Contraseña: Ee1*gSbM169x/G
+Solicitud pendiente: 2042968
+Ya dice que está completada
+
+credenciales para la nómina:
+Usuario: jorendon@tcs.com
+Clave de acceso: es tu número de cedula seguido de los 4 dígitos del año de nacimiento
+
+Para los permisos de admin:
+Gustavo Castañeda
+
+
+PARA LA VPN REVISAR EN LA MESA DE AYUDA
+produccion
+creacion 
+rsa token
+token
+con usuario referencia
+Por favor su ayuda creando la semilla para poder usar la VPN, además por favor adicionar a los grupos teniendo en cuenta el usuario de referencia.
+vicepresidencia servicios de tecnologia
+
+2044937
+
+para el RFC:
+valery.t@tcs.com
+gustavo.castaneda@tcs.com
+
+
+AWS
+jose.rendonurrea@tcs.com
+Stei?o480161
+
+Nuevo corréo de front end:
+usuario: jgrendon@ambientesbc.com
+contraseña: jcS9AqdfuL5kEeYV
+
+Mesa de servicio
+usuario: jgrendon
+contraseña: Ee1*gSbM169x/G
+
+
+

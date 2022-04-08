@@ -1,0 +1,9 @@
+(deployment and mateinance)
+
+
+Glosary
+Elastic Beanstalk
+AWS Lambda
+YAML format(is a type of format as json????)
+
+

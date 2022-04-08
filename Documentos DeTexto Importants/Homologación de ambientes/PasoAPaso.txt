@@ -1,0 +1,48 @@
+contraseña front end: jcS9AqdfuL5kEeYV
+
+en esta página: https://fuentesexternas-dev.apps.ambientesbc.com/
+se ingresa con as credenciales de bvc
+
+inventario Fuentes publicas
+
+Yo soy con Michael
+
+Procesos Online o procesos Bach:
+pruebas online
+me tocó COPNIA
+
+aparecen los parámetros de entrada: en el caso de copnia numerod e identificacion y tipo de identifiacion
+buscar en los 
+csv(
+, en la pagina de la araña, 
+
+el mesaje resultante de la respuesta lo copiamos y lo pegamos en la columna online (ó descargamos el archivo que nos genera el front end y lo metemos a una carpeta
+https://tcscomprod.sharepoint.com/:f:/r/sites/FuentesExternas-InternoTCS/Shared%20Documents/General/Pruebas%20en%20Front-DEV?csf=1&web=1&e=Geq2Eg)
+
+Para los procesos batch se suben los archivos csv(Archivos csv funcionales)
+
+Los resultados se ven en:
+Descargar archivos
+
+En Administración:
+Fuentes - editar
+
+En general - fuentes front end se crea tambien el archivo del batch(Pero con el archivo que está en este link con el nombre de la fuente:
+https://tcscomprod.sharepoint.com/sites/FuentesExternas-InternoTCS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=fgfP7n&OR=Teams%2DHL&CT=1648651990569&params=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMjAzMDcwMTYxMCJ9&cid=187b8e49%2Df984%2D4252%2Dbd69%2D98fe3a51cad2&RootFolder=%2Fsites%2FFuentesExternas%2DInternoTCS%2FShared%20Documents%2FGeneral%2FPaso%20a%20PDN%2FArchivos%20CSVs%20funcionales&FolderCTID=0x01200044BCAB4C018F3E40B54E43C90C4FA0FE
+Y toca esperar hasta el 100%
+
+
+URL para verificar en QA:https://fuentesexternas-qa.apps.ambientesbc.com/
+https://tcscomprod.sharepoint.com/sites/FuentesExternas-InternoTCS/Shared%20Documents/Forms/AllItems.aspx?csf=1&web=1&e=fgfP7n&cid=38e33f9e%2D0feb%2D407c%2Db332%2De9cfa1562102&RootFolder=%2Fsites%2FFuentesExternas%2DInternoTCS%2FShared%20Documents%2FGeneral%2FPaso%20a%20PDN%2FArchivos%20CSVs%20funcionales&FolderCTID=0x01200044BCAB4C018F3E40B54E43C90C4FA0FE)
+
+FALTA EL BATCH DE:
+
+CFTC
+FOPEP
+REGISTROCOLEGIO
+NOTARIAS
+
+
+
+
+

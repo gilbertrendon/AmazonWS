@@ -1,0 +1,57 @@
+Capacitación python.
+Se deben hacer las tres partes del curso de python que se nos commpartió inicialmente.
+Webscraping: Raspado web(se puede por ejm con selenium)
+Scrapy => Framework para WebScraping
+Hacer el curso de frescoplay de python
+
+links de frescoplay: 
+https://play.fresco.me/course/16
+
+https://play.fresco.me/course/175
+
+https://play.fresco.me/course/196
+
+https://play.fresco.me/course/403
+
+
+Para la creación de tickets(help desk)
+Dentro de ultimatix hay que irigirse a nextgen(Pandian nos manda el paso a paso)
+
+Mensaje cuando intento desinstalar
+the request operation requires elevation
+
+
+ENCUESTA(YEISON)
+https://tcs.webex.com/recordingservice/sites/tcs/recording/fc88394ac7221039be7f005056b9f5a6/playback
+
+58014
+FLOW
+
+	No me salen preguntas en la encuesta de teletrabajo: 
+	https://knome.ultimatix.net/get_started/user_avatar#
+
+REGISTRAR EL ROL ASPIRACIONAL ... 4444
+Xcelerate: solo tengo que hacer wings1
+en la conversación ENTRENAMIENTO XCELERATE LATAM: ver el audio de la sesion del 11 de agosto y examinar bien.
+
+corréo para averiguar el curso que me falta: [5:57 p. m.] Tibisay Paola Tarazona Uribe
+diana.munozortiz@tcs.com
+
+en el RFC debo redactar bien que no requiero la instalación sino que IS me haga una gestiónpara poder tener docker y debo averiguar si docker está en el SOE de mi proyecto
+
+Para lo de wings
+15205 PERFIL MAS ENFOCADO A TECNOLOGÍA
+Para entrar al curso se da click en TCS Elevate Wings1 Certificate_IT
+hay que aprobar dos tracks 
+
+
+
+
+
+
+
+
+
+
+
+
