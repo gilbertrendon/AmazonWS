@@ -1,3 +1,75 @@
 Almenos un examen es supervisado sin dispositivos electrónicos cercanos.
 15205 (Modern web apps) -  En promedio la gente se demora 6 meses
 >>  6
+
+Correos importantes wings 1:
+https://outlook.office.com/mail/inbox/id/AAQkADgxYjZlN2MxLTcxMDMtNGFkNy04NjQzLTM5MDU2YzYxODBkYgAQAPso%2B5eLyk8wnCcEU5zLAxE%3D
+
+IEVOLVE:
+curso 15206 
+Wings : Core Tech_T1_Building modern web apps at scale
+Curricula ID: 14517
+Digital : Building modern web apps at scale_iON_LX_SP
+Course ID: 60530
+
+La selección anterior debe concordar con esta:
+https://knome.ultimatix.net/private/blogposts/949241?com=22355-wings1-tslp-proctored-assessment-onsite-community
+
+
+SOLUCIÓN WINGS 1 (PATH DE 3 CURSOS)
+Mini-project for Wings - Full-Stack Application
+#Mini-project for T1 Wings - Full-Stack Application
+
+labuser
+StRuTs@27
+
+tuve un error con uid como se puede ver en la imagen Path1Ejercicio1(package.json)
+la aplicación de NodeJS no funciona
+
+------------------------------------------------------------
+Intentando el primer curso del primer track
+dentro del curso recomiendan:
+You can go through the iEvolve course ID 59546 for Bootstrap 4 and iEvolve course ID 57736 for SASS
+
+Contenido del curso:
+Ya voy en ECMAScript
+https://play.fresco.me/course/141 (curso de ECMAScript)
+
+Arrow functions solution:
+--------------------------
+let greet = (name) => {
+  return 'Hello ' + name
+}
+module.exports = {greet}
+------------------------------
+Template literals
+
+let sum = (a, b) => {
+  return 'The sum of ' + a + ' and ' + b + ' is '+(a+b)
+}
+
+module.exports = {sum}
+----------------------------
+NPM crash course:
+node nvm para cambiar la version que se está usando de NPM
+
+curso en frescoplay: https://play.fresco.me/course/71(dice opcional)
+--------------------------------
+curso reactjs: https://play.fresco.me/course/60
+-------------------------------------------------
+miniproyect react: https://play.fresco.me/Course/798
+miniproyect react:  https://play.fresco.me/course/158
+-----------------------------------------
+redux async: https://play.fresco.me/course/160
+redux saga: https://play.fresco.me/course/171
+
+-----------------------------------------------------
+miniproyect: https://play.fresco.me/course/359
+------------------------------------------------
+webpack: https://play.fresco.me/course/164
+--------------------------------------------------
+Watch out for course ID: 60531, Digital : Building modern web apps at scale_Expert Connects_vILT
+----------------------------------------------------
+Nodejs: https://play.fresco.me/course/66
+
+ESTIY DESARROLANDO EL CURSO 60(React js)
