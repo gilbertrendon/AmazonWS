@@ -55,7 +55,7 @@ node nvm para cambiar la version que se está usando de NPM
 
 curso en frescoplay: https://play.fresco.me/course/71(dice opcional)
 --------------------------------
-curso reactjs: https://play.fresco.me/course/60
+curso reactjs: https://play.fresco.me/course/60 (done)
 -------------------------------------------------
 miniproyect react: https://play.fresco.me/Course/798
 miniproyect react:  https://play.fresco.me/course/158
@@ -72,4 +72,37 @@ Watch out for course ID: 60531, Digital : Building modern web apps at scale_Expe
 ----------------------------------------------------
 Nodejs: https://play.fresco.me/course/66
 
-ESTIY DESARROLANDO EL CURSO 60(React js)
+Express: https://play.fresco.me/course/89
+
+miniproject nodejs: https://play.fresco.me/Course/799
+
+mongodb: https://play.fresco.me/course/314
+https://play.fresco.me/course/351
+
+miniproject full stack: https://play.fresco.me/Course/800
+
+este parece ser un curso completo en ievolve:
+Watch out for course ID: 60531, Digital : Building modern web apps at scale_Expert Connects_vILT
+
+js (qa):https://play.fresco.me/course/367
+https://play.fresco.me/course/224
+
+virtual cohorte(tema nuevo): 
+Watch out for the course ID: 60532, Digital : Building modern web apps at scale_vCohort_vILT
+
+
+ESTOY DESARROLANDO EL CURSO 60(React js)
+DEPRONTO CUANDO ESTÁ EL BOTÓN LAUNCH FALTE DARLE MARK
+ AS CLOSE PARA CULMINAR EL CURSO
+
+
+
+
+ body:  font-family: 'HelveticaNeue-UltraLight', 'Helvetica Neue UltraLight',
+               'Helvetica Neueu', Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #efeff5;
+
+ESTOY MATRIULADO EN 73163 angular
+y el principal62115
+El 31 de mayo me toca presentar esa cuestion supervisado y supervigilado
