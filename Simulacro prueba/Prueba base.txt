@@ -1,0 +1,38 @@
+SON 90 MINUTOS
+Grabé un video
+Pipelines de ci deben ser: Rápido , automático, repetible, predecible, configurable
+
+3 areas principales dentro de ci:
+ejecutar compilacion rapida
+ejecutar y publicar pruebas unitarias
+realizar análisis estático de código(sonar)
+
+un equipo tiene la responsabilidad de desarrollar una nueva aplicacion, te han consultado cuantos pipelines se deben crear si han vaidado que una estrategia de monorepositorio es aplicable
+al proyecto y tendrán 8 microservicios inicialmente ¿cuá sería tu respuesta?
+
+se deben crear 8 definiciones de pipeline que correspondan a cada componente de la aplicacionn de forma independiente
+
+¿como se conoce el mecanismo para que se ejecute automaticamente un pipeline cada vez que se detecta un cambio en el repo?
+Trigger
+
+cuales son los pasos ideales de un pipeline de integracion continua?
+descarga de dependiencias, compilacion , ejecucion de priebas unitarias, análisis estático de codigo, publicacion de
+artefacto
+
+cuál es el primer análisis de código que debe ser ejecutado?
+style check
+
+cual es el tip de prueba que debería ejectuarse 
+pruebas unitarias
+
+ha estado evaluando las NACL en su empresa, lamayoria de las NACL dse configutran de la misma manera:
+100 trafic allow 
+200  trafic deny
+
+se utilizará la regla con el numero mas altp de una negación
+
+después de una reunion del comite directivo de ti, se le asignó la responsabilidad de configurar un entorno híbrido para los recursos informáticos
+dela empresa.
+un componente clave del plan de recupracion antes desastres seran las instancias de la bade de datos y sus datos, un bjetivo del tiempo de recuperacion RTO agresivo dicta que la base de datos debe replicarse sincronicamente que configuracion puede cumplir
+este requisito?
+AWS VPN
