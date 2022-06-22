@@ -17,7 +17,7 @@ Answers Minitaller1.1.png
 
 9 marzo 2022
 
-Se habó un poco de IAM
+Se habló un poco de IAM
 Se habló de la creación de un profile y una página de gestión como se puede ver en la figura(AWSManager(página).png)
 Para la gestión del acceso fig(AccessManagement.png)
 También relacionado con los dos anteriores temas fig(SimiarGit.png)
