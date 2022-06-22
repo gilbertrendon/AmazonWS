@@ -11,15 +11,15 @@ Intentar buscar los cursos en español
 
 
 QUIZ SECURITY FUNDAMENTALS(SECRURITY FUNDAMENTALS):
-How can AWS CloudFormation be used in an incident response solution?
-Deploying pre-configured instances for forensics analysis
+How can AWS CloudFormation be used in an **incident** response solution?
+Deploying pre-configured instances for **forensics** analysis
 
 
-Which AWS service feature helps secure your Amazon VPC resources by providing isolation at the instance level?
-Security groups
+Which AWS service feature helps secure your Amazon VPC resources by providing **isolation** at the instance level?
+**Security groups**
 
-Which statement is true when describing your AWS account root user credentials?
-They provide unrestricted access to your AWS account resources.
+Which statement is true when describing your AWS account **root user credentials**?
+They provide **unrestricted access to your AWS account** resources.
 
 Which AWS services below can be used in tandem to help protect against DDoS attacks? Select THREE.
 Amazon Route 53
